@@ -6,203 +6,65 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
 </head>
 <body>
     <header>
         <nav>
         <div class="logo"><h1>TeamUp<span>.gg</span></h1></div>
             <ul class="nav-links">
-               <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#commentcamarche">Comment ca marche</a></li>
-                <li><a href="joueur.html">Joueurs</a></li>
-                <li><a href="#comunauté">comunauté</a></li>
+               <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Comment ca marche</a></li>
+                <li><a href="index.html">Joueurs</a></li>
+                <li><a href="index.html">comunauté</a></li>
                 <li><a href="annonce.html">Annonces</a></li>
+                
             </ul>
             <bUtton class="btncnx">connexion</bUtton>
         </nav>
     </header>
-<!-- accueil -->
-    <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h1>Trouve ton équipe.
-                <br>Domine le jeu.</h1>
-<p>Rejoins la plus grande communauté E-sport et connecter-toi avec des jeux de ton
-    <br>niveau sur Valorant, LoL, CS2 et plus encore.</p>
-        <button class="commencer">commencer maintenant</button>
-        <button class="ensavoirplus">En savoir plus</button>
-        </div>
-    </section>
 
-    <!-- commentcamarche -->
-    <section id="commentcamarche" class="hero">
-        <div id="commentcamarchediv" class="hero-content">
-            <div class="header2">
-                <h2>Comment ça marche ?</h2><br>
-                <div class="gradiant"></div><br>
-            </div>
-            <div id="card3" class="container">
-                <div class="cardcommentcamarche">
-                    <div class="svgcommentcamarche">
-                        <img src="SVG.png">
-                    </div>
-                    <h3>Trouve une équipe</h3>
-                    <p>Parcours des centaines de profils de
-joueurs et d'équipes qui cherchent des
-coéquipiers de ton niveau.</p>
+    <!-- annonce -->
+     <section id="annonce" class="hero">
+        <div id="annoncediv" class="hero-content">
+            <div class="annonceblock">
+                <div class="rightdiv">
+                    <h1>Mettre votre annonce<br> ici</h1>
                 </div>
-
-                <div class="cardcommentcamarche">
-                    <div class="svgcommentcamarche">
-                        <img src="SVG1.png">
-                    </div>
-                    <h3>Publie ton profil</h3>
-                    <p>Crée ton profil de joueur avec tes stats,
-tes jeux favoris et ton niveau pour être
-visible par les équipes.</p>
-                </div>
-
-                <div class="cardcommentcamarche">
-                    <div class="svgcommentcamarche">
-                        <img src="SVG2.png">
-                    </div>
-                    <h3>Rejoins la communauté</h3>
-                    <p>Connecte-toi avec des milliers de
-joueurs passionnés et participe à des
-tournois communautaires.</p>
+                <div class="leftdiv">
+                    <div class="inputgroup">
+                                    <label>Nom</label><br>
+                                    <input type="text" placeholder=" Votre Nom" class="input">
+                                </div>
+                                <div class="inputgroup">
+                                    <label>Prenom</label><br>
+                                    <input type="text" placeholder=" Votre Prenom" class="input">
+                                </div>
+                                <div class="inputgroup">
+                                    <label>Email</label><br>
+                                    <input type="text" placeholder=" VotreEmail@gmail.com" class="input">
+                                </div>
+                                <div class="inputgroup">
+                                    <label>Game</label><br>
+                                    <select>
+                                        <option>Valorant</option>
+                                        <option>CS2</option>
+                                        <option>League of Legends</option>
+                                    </select>
+                                </div>
+                                 <div class="inputgroup">
+                                    <label>Article</label><br>
+                                    <textarea id="message" placeholder=" Votre Article"></textarea>
+                                </div>
+                                <div class="buttonpublier">
+                                    <button>Publier</button>
+                                </div>
                 </div>
             </div>
         </div>
-    </section>
+     </section>
 
-    <!-- joueur -->
-    <section id="joueur" class="hero">
-        <div id="joueurdiv" class="hero-content">
-            <div class="header2">
-                <h2>Joueurs disponibles</h2><br>
-                <div class="gradiant"></div><br>
-            </div>
-            <div id="card6" class="container">
-                <div class="flex">
-                    <div class="xcard">
-    <div class="profilecircle">
-      <div class="enligne"></div>
-    </div>
-    <h2 class="username">xFawzer</h2>
-    <span id="game1" class="game">Valorant</span>
-    <div class="rank-info">
-      <span class="role">Controller</span>
-      <span class="rank">Diamant II</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-
-   <div class="xcard">
-    <div class="profilecircle">
-      <div class="enligne"></div>
-    </div>
-    <h2 class="username">PhoenixRising</h2>
-    <span id="game2" class="game">League of Legends</span>
-    <div class="rank-info">
-      <span class="role">Mid Lane</span>
-      <span class="rank">Maitre</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-
-   <div class="xcard">
-    <div class="profilecircle">
-      <div class="horligne"></div>
-    </div>
-    <h2 class="username">IceQueen</h2>
-    <span id="game3" class="game">CS2</span>
-    <div class="rank-info">
-      <span class="role">AWPer</span>
-      <span class="rank">Global Elite</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-                </div><br>
-                
-<div class="flex">
-                    <div class="xcard">
-    <div class="profilecircle">
-      <div class="enligne"></div>
-    </div>
-    <h2 class="username">NeonBlade</h2>
-    <span id="game4" class="game">Valorant</span>
-    <div class="rank-info">
-      <span class="role">Contrôleur</span>
-      <span class="rank">Platine III</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-
-   <div class="xcard">
-    <div class="profilecircle">
-      <div class="enligne"></div>
-    </div>
-    <h2 class="username">ThunderGod</h2>
-    <span id="game2" class="game">League of Legends</span>
-    <div class="rank-info">
-      <span class="role">Contrôleur</span>
-      <span class="rank">Platine III</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-
-   <div class="xcard">
-    <div class="profilecircle">
-      <div class="horligne"></div>
-    </div>
-    <h2 class="username">CyberNinja</h2>
-    <span id="game3" class="game">CS2</span>
-    <div class="rank-info">
-      <span class="role">Contrôleur</span>
-      <span class="rank">Platine III</span>
-    </div>
-    <p class="description">Main Omen/Viper, bon game sense et communication</p>
-    <button class="profile-btn">Voir le profil</button>
-  </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-<!-- comunauté -->
-    <section id="comunauté" class="hero">
-        <div id="comunautédiv" class="hero-content">
-            <div class="header2">
-                <h2>Comunauté</h2><br>
-                <div class="gradiant"></div><br>
-            </div>
-            <div class="flex">
-                <div class="comunautécard">
-            <h1 id="number-card">15,000+</h1>
-            <h5>Joueur actif</h5>
-        </div>
-        <div class="comunautécard">
-            <h1 id="number-card">2,500+</h1>
-            <h5>Equipe formées</h5>
-        </div>
-        <div class="comunautécard">
-            <h1 id="number-card">50+</h1>
-            <h5>Tournois organisés</h5>
-        </div>
-        <div class="comunautécard">
-            <h1 id="number-card">10+</h1>
-            <h5>Jeux supportés</h5>
-        </div>
-            </div>
-        
-        </div>
-    </section>
-
-<!-- footer -->
+    <!-- footer -->
     <footer>
         <div id="footer-item" class="container">
             <div id="X1" class="container">
@@ -273,6 +135,6 @@ tournois communautaires.</p>
                <p>© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia</p> 
             </div>
     </footer>
-
+    
 </body>
 </html>
